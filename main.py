@@ -1,5 +1,7 @@
+from src.datascience import logger
+
 def main():
-    print("Hello from data-science-project!")
+    logger.info("Hello from data-science-project!")
 
 
 if __name__ == "__main__":
